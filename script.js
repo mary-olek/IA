@@ -45,14 +45,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: " ",
+        enunciado: "No dia seguinte você já estava em campo, só deu tempo de pegar algumas roupas e um item pessoal,  o que você pegou?",
         alternativas: [
             {
-                texto: "",
+                texto: "Um diário",
                 afirmacao: ""
             },
             {
-                texto: "",
+                texto: "Uma foto da sua mãe",
                 afirmacao: ""
             }
         ]
