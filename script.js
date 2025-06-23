@@ -6,45 +6,108 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Escolha seu personagem",
+        enunciado: " Escolha seu nome",
         alternativas: [
-            "Maya",
-            "Matteo"
+            {
+                texto: "Maya.",
+                afirmacao: "Maya! você chegou até aqui.."
+            },
+            {
+                texto: "Matteo",
+                afirmacao: "Matteo! Você chegou até aqui.."
+            }
         ]
     },
     {
-        enunciado: "",
+        enunciado: " Agora que você tem um nome, escolha como será a sua vida..",
         alternativas: [
-            "",
-            "",
+            {
+                texto: "Você mora sozinho (a), tem 19 anos e muitos planos para o futuro, uma pessoa sonhadora, não tem um relacionamento, mas sonha com uma famiĺia feliz.",
+                afirmacao: ""
+            },
+            {
+                texto: "Você mora com sua seus pais, tem uma vida simples e feliz, com 19 anos já viveu muitas aventuras. seu sonho era servir o exército, mas te dispensaram por lotação.",
+                afirmacao: ""
+            }
         ]
     },
     {
-        enunciado: "",
+        enunciado: " ",
         alternativas: [
-            "",
-            "",
+            {
+                texto: "",
+                afirmacao: ""
+            },
+            {
+                texto: "",
+                afirmacao: ""
+            }
         ]
     },
     {
-        enunciado: "",
+        enunciado: " ",
         alternativas: [
-            "",
-            "",
+            {
+                texto: "",
+                afirmacao: ""
+            },
+            {
+                texto: "",
+                afirmacao: ""
+            }
         ]
     },
     {
-        enunciado: "",
+        enunciado: " ",
         alternativas: [
-           "",
-            "",]
+            {
+                texto: "",
+                afirmacao: ""
+            },
+            {
+                texto: "",
+                afirmacao: ""
+            }
+        ]
     },
-
     {
-        enunciado: "",
+        enunciado: " ",
         alternativas: [
-           "",
-            "",]
+            {
+                texto: "",
+                afirmacao: ""
+            },
+            {
+                texto: "",
+                afirmacao: ""
+            }
+        ]
+    },
+    {
+        enunciado: " ",
+        alternativas: [
+            {
+                texto: "",
+                afirmacao: ""
+            },
+            {
+                texto: "",
+                afirmacao: ""
+            }
+        ]
+    },
+    {
+        enunciado: " ",
+        alternativas: [
+            {
+                texto: "",
+                afirmacao: ""
+            },
+            {
+                texto: "",
+                afirmacao: ""
+            }
+        ]
     },
 ];
 
@@ -87,4 +150,4 @@ function mostraResultado() {
     caixaAlternativas.textContent = "";
 }
 
-mostraPergunta();
+mostraPergunta();Me
