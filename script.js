@@ -13,7 +13,7 @@ const perguntas = [
                 afirmacao: "Maya! você chegou até aqui.."
             },
             {
-                texto: "Matteo",
+                texto: "Matteo.",
                 afirmacao: "Matteo! Você chegou até aqui.."
             }
         ]
@@ -23,24 +23,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Você mora sozinho (a), tem 19 anos e muitos planos para o futuro, uma pessoa sonhadora, não tem um relacionamento, mas sonha com uma famiĺia feliz.",
-                afirmacao: ""
+                afirmacao: "Você sobreviveu!! Sua casa foi saqueada, mas o exército te deu uma nova, em outra cidade, uma nova oportunidade."
             },
             {
-                texto: "Você mora com sua seus pais, tem uma vida simples e feliz, com 19 anos já viveu muitas aventuras. seu sonho era servir o exército, mas te dispensaram por lotação.",
-                afirmacao: ""
+                texto: "Você mora com sua seus pais, tem uma vida simples e feliz, com 19 anos já viveu muitas aventuras. Seu sonho era servir o exército, mas te dispensaram por lotação.",
+                afirmacao: "Infelizmente sua mãe faleceu, mas sua familía está muito feliz em te receber de volta."
             }
         ]
     },
     {
-        enunciado: " ",
+        enunciado: " Agora que já temos um personagem, vamos começar? O ano era 2001, você estava trabalhando quando chega em casa e recebe a notícia que o país entrou em guerra e está convocando todos os jovens, incluindo mulheres de 18-30 anos, e você teria que servir, como você se sente nessa situação?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Me sinto desesperado(a).",
+                afirmacao: "Você sobreviveu, após muito sacrificio"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "sinto que é a hora de cumprir a minha missão na terra.",
+                afirmacao: "Você sobreviveu, porém teve muita sequelas, lutou com garras e dentes para dar o seu melhor."
             }
         ]
     },
