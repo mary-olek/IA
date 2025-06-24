@@ -1,11 +1,15 @@
+
+
 :root{
-    --cor-fundo: #e8d7f8e0 ;
+    --cor-fundo:#dab4fde0 ;
     --cor-principal: #dab4fde0 ;
     --cor-secundaria: #bf4feb; 
     --cor-destaque: #9713a8;
-    --cor-texto: #fbf7bf;
+    --cor-texto: #000000;
+ 
 
 }
+ 
 
 body {
     background-color: var(--cor-fundo);
@@ -14,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+   
 }
 
 .caixa-principal{
@@ -22,10 +27,16 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
-}
-
+    border-radius: 15%;
+    border-width: 10px; 
+    border-style: solid; 
+    border-color: var(--cor-destaque);
+     
+    
 h1{
     color: var(--cor-destaque);
+  
+
 }
 
 button {
@@ -34,7 +45,9 @@ button {
     border: none;
     border-radius: 15px;
     padding: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.4s;
+    
+
 }
 
 button:hover{
