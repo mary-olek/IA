@@ -53,7 +53,7 @@ const perguntas = [
             },
             {
                 texto: "Buscaria uma opção segura, sem colocar todos em risco.",
-                afirmacao: "você é pé no chão, se preocupa com o que pode acontecer de ruim."
+                afirmacao: "Você é pé no chão, se preocupa com o que pode acontecer de ruim."
             }
         ]
     },
@@ -66,7 +66,7 @@ const perguntas = [
             },
             {
                 texto: "Longo, rodado e da sua cor favorita.",
-                afirmacao: "Todos amam seu jeitinho unico de ser!!"
+                afirmacao: "Todos amam seu jeitinho único de ser!!"
             }
         ]
     },
