@@ -6,108 +6,83 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: " Escolha seu nome",
+        enunciado: " Vamos descobrir como seria sua princesa? Para começar, escolha uma cor",
         alternativas: [
             {
-                texto: "Maya.",
-                afirmacao: "Maya! você chegou até aqui.."
+                texto: "Roxo",
+                afirmacao: "Você é doce e sonhadora,"
             },
             {
-                texto: "Matteo.",
-                afirmacao: "Matteo! Você chegou até aqui.."
+                texto: "Azul",
+                afirmacao: "Você é alegre e sorridente,"
             }
         ]
     },
     {
-        enunciado: " Agora que você tem um nome, escolha como será a sua vida..",
+        enunciado: "Seu castelo dos sonhos seria?",
         alternativas: [
             {
-                texto: "Você mora sozinho (a), tem 19 anos e muitos planos para o futuro, uma pessoa sonhadora, não tem um relacionamento, mas sonha com uma famiĺia feliz.",
-                afirmacao: "Você sobreviveu!! Sua casa foi saqueada, mas o exército te deu uma nova, em outra cidade, uma nova oportunidade."
+                texto: "Um lugar tranquilo, cheio de flores, passáros e muita luz natural.",
+                afirmacao: "você ama a tranquilidade e a paz que a natureza te traz, ama essa conexão."
             },
             {
-                texto: "Você mora com sua seus pais, tem uma vida simples e feliz, com 19 anos já viveu muitas aventuras. Seu sonho era servir o exército, mas te dispensaram por lotação.",
-                afirmacao: "Infelizmente sua mãe faleceu, mas sua familía está muito feliz em te receber de volta."
+                texto: "Um lugar bem alto, longe da cidade, com uma vista privilegiada do céu.",
+                afirmacao: "você prefere a paz de sua própria companhia, ver o cèu durante a noite faz com que você se sinta viva."
             }
         ]
     },
     {
-        enunciado: " Agora que já temos um personagem, vamos começar? O ano era 2001, você estava trabalhando quando chega em casa e recebe a notícia que o país entrou em guerra e está convocando todos os jovens, incluindo mulheres de 18-30 anos, e você teria que servir, como você se sente nessa situação?",
+        enunciado: " Se tivesse um poder mágico, qual escolheria?",
         alternativas: [
             {
-                texto: "Me sinto desesperado(a).",
-                afirmacao: "Você sobreviveu, após muito sacrificio"
+                texto: "Saber o futuro e poder mudá-lo, antes que ocorra.",
+                afirmacao: "Você gosta de ter o controle da situação, conseguir controlar o que vai vir a acontecer é uma boa forma de evitar problemas,"
             },
             {
-                texto: "sinto que é a hora de cumprir a minha missão na terra.",
-                afirmacao: "Você sobreviveu, porém teve muita sequelas, lutou com garras e dentes para dar o seu melhor."
+                texto: "Poder voltar ao passado.",
+                afirmacao: "Você se prende a sentimentos que já passaram, gosta de aproveitar os momentos pois sabe o valor deles depois que tudo passa."
             }
         ]
     },
     {
-        enunciado: "No dia seguinte você já estava em campo, só deu tempo de pegar algumas roupas e um item pessoal,  o que você pegou?",
+        enunciado: "O que você faria se o seu reino entrasse em guerra?",
         alternativas: [
             {
-                texto: "Um diário",
-                afirmacao: ""
+                texto: "Mandariam todos para a guerra, nosso reino em primeiro lugar!",
+                afirmacao: "você ama arriscar, mesmo que tudo possa dar errado. "
             },
             {
-                texto: "Uma foto da sua mãe",
-                afirmacao: ""
+                texto: "Buscaria uma opção segura, sem colocar todos em risco.",
+                afirmacao: "você é pé no chão, se preocupa com o que pode acontecer de ruim."
             }
         ]
     },
     {
-        enunciado: " ",
+        enunciado: " O que é uma princesa sem seu vestido? como o seu seria? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Longo, com gliter e da sua cor favorita.",
+                afirmacao: "Você ama brilar, e todos amam isso em você!!"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Longo, rodado e da sua cor favorita.",
+                afirmacao: "Todos amam seu jeitinho unico de ser!!"
             }
         ]
     },
     {
-        enunciado: " ",
+        enunciado: "E por fim princesa, como seria sua coroa?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Dourada, com muitas pedras brilhantes.",
+                afirmacao: "Você é feliz!"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Prata, toda cravejada.",
+                afirmacao: "Você é feliz!"
             }
         ]
-    },
-    {
-        enunciado: " ",
-        alternativas: [
-            {
-                texto: "",
-                afirmacao: ""
-            },
-            {
-                texto: "",
-                afirmacao: ""
-            }
-        ]
-    },
-    {
-        enunciado: " ",
-        alternativas: [
-            {
-                texto: "",
-                afirmacao: ""
-            },
-            {
-                texto: "",
-                afirmacao: ""
-            }
-        ]
+    
     },
 ];
 
@@ -145,9 +120,10 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Parabéns princesa!!";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+    
 }
 
 mostraPergunta();Me
